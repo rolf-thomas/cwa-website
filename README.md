@@ -36,12 +36,12 @@ Clone the repository and ensure to have all requirements installed. To build the
   gulp build
 ```
 
-After a successful build, you'll have a new folder ```public``` in the repository's base directory. It contains the generated files for the complete website. To test the generated content, simply use a local web server such as http-server by executing the command 
+After a successful build, you'll have a new folder ```public``` in the repository's base directory. It contains the generated files for the complete website. To test the generated content, simply use a local web server with the bundled command:
 
 ```bash
-  http-server
+  npm run start
 ```
-It will automatically use ```public``` as base directory, go to ```localhost:8080``` to view the website.
+It will automatically use ```public``` as base directory, go to ```localhost:8000``` to view the website.
 
 ### Updating coronawarn.app
 
