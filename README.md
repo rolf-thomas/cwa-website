@@ -43,6 +43,8 @@ After a successful build, you'll have a new folder ```public``` in the repositor
 ```
 It will automatically use ```public``` as base directory, go to ```localhost:8000``` to view the website.
 
+We use [Panini](https://github.com/foundation/panini) to build the html files.
+
 ### Updating coronawarn.app
 
 Any direct commits and merged pull requests will automatically trigger follow-up actions to build and deploy the changes to [coronawarn.app](https://coronawarn.app). The respective [GitHub Actions](https://github.com/features/actions) are available in the [.github/workflows](.github/workflows) directory of this repository.
